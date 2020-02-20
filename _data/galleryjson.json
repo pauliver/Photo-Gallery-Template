@@ -1,1 +1,11 @@
-
+{
+  "GalleryName": "gallery",
+  "DirectoryName": "/gallery",
+  "FullDirectoryPath": "/gallery/",
+  "GalleryIndexHTMLFile": "/gallery/Index.html",
+  "GalleryIndexMarkdownFile": "/gallery/Index.md",
+  "ImageThumbnail": null,
+  "PhotoGalleries": [],
+  "Images": [],
+  "GeneratedDateTime": "2/20/2020 1:49:39 AM"
+}
