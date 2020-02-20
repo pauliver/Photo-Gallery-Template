@@ -58,7 +58,7 @@ function SetupGallery(string_gallery)
 {
 	if(string_gallery.endsWith("ImgContainer"))
 	{
-		target_string_gallery = string_gallery.replace("ImgContainer").trim();
+		target_string_gallery = string_gallery.replace("ImgContainer","").trim();
 	}else{
 		target_string_gallery = string_gallery;
 	}
