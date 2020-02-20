@@ -11,7 +11,7 @@ Gallery_Name: ALL
 # Index
 
 {% for gallery in site.data.galleryjson.PhotoGalleries %}
-{% if gallery.GalleryName != "Personal" %}
+{% if gallery.GalleryName != "Example-Hidden-Gallery" %}
 
 ## [{{gallery.GalleryName}}]({{gallery.FullDirectoryPath}})
 
