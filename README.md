@@ -1,3 +1,11 @@
+---
+permalink: /ReadMe.html
+title: ReadMe
+page_variable: ReadMe
+---
+
+**Don't Forget to replace this page, it will be published**
+
 # Photo Gallery Template
 
 Clone this template repo, which uses [this action](https://github.com/pauliver/CSharp-Image-Action) and GitHub Pages

@@ -1,1 +1,5 @@
-include: [/gallery/, /gallery/*]
+//theme: jekyll-theme-modernist
+useheader: false 
+include: [/gallery/, /gallery/*, /_data/galleryjson.json]
+exclude: [/coldstorage/OriginalImages/, /coldstorage/OriginalImages/*]
+show_drafts: false
