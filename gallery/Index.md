@@ -1,7 +1,7 @@
 ---
 permalink: /galleryIndex.html
-title: Gallery: https://githubpages.io/someurl
-page_variable:https://githubpages.io/someurl
+title: Gallery: https://pauliver.github.io/Photo-Gallery-Template/
+page_variable:https://pauliver.github.io/Photo-Gallery-Template/
 
 {% include header.md %}
 
