@@ -1,6 +1,6 @@
 name: Create Thumbnails, Compressed images, Build Jekyll Site, Branch to Release on Success
 env:
-  URL: "githubpages.io/someurl"
+  URL: "pauliver.github.io/Photo-Gallery-Template/"
   AutoMergeLabel: "automerge"
   GHPages: "gh-pages"
   CurrentBranch: "master"
