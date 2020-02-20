@@ -1,11 +1,11 @@
 ---
-permalink: /galleryIndex.html
-title: Gallery: https://pauliver.github.io/Photo-Gallery-Template/
+permalink: /gallery/index.html
+title: Gallery - https://pauliver.github.io/Photo-Gallery-Template/
 page_variable:https://pauliver.github.io/Photo-Gallery-Template/
+----
 
 {% include header.md %}
 
----
 # gallery
 
 ----
@@ -13,7 +13,7 @@ page_variable:https://pauliver.github.io/Photo-Gallery-Template/
 ----
 
 
-[Gallery]( ./Index.html)
+[Gallery]( ./index.html)
   or 
 [Home]( ../)
 

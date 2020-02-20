@@ -2,10 +2,10 @@
   "GalleryName": "gallery",
   "DirectoryName": "/gallery",
   "FullDirectoryPath": "/gallery/",
-  "GalleryIndexHTMLFile": "/gallery/Index.html",
-  "GalleryIndexMarkdownFile": "/gallery/Index.md",
+  "GalleryIndexHTMLFile": "/gallery/index.html",
+  "GalleryIndexMarkdownFile": "/gallery/index.md",
   "ImageThumbnail": null,
   "PhotoGalleries": [],
   "Images": [],
-  "GeneratedDateTime": "2/20/2020 2:00:16 AM"
+  "GeneratedDateTime": "2/20/2020 5:25:29 AM"
 }
