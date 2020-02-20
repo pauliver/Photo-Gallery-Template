@@ -6,14 +6,23 @@
 var GalleryObject = {% include gallery.json %};
 var Iterator = GalleryObject;
 var target_string_gallery = "none";
+var domain_name = "https://{{ site.github.project_title }}/";
 
-
+function ForEachImageOnce(item,index)
+{
+	item.ResizedFilePath = domain_name.concat(item.ResizedFilePath); 	
+	item.ThumbnailFilePath = domain_name.concat(item.ThumbnailFilePath);
+}
 
 function ForEachGalleryOnce(item, index)
 {
 	if(item.PhotoGalleries != null)//array of above
 	{
 		item.PhotoGalleries.forEach(ForEachGalleryOnce);
+	}
+	if(item.Images != null)
+	{
+		item.Images.forEach(ForEachImageOnce);		
 	}
 	
 	var galleryname = '.image-container-'.concat(item.GalleryName);
