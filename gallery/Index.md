@@ -1,15 +1,19 @@
 ---
 permalink: /gallery/index.html
-title: Gallery - https://pauliver.github.io/Photo-Gallery-Template/
-page_variable:https://pauliver.github.io/Photo-Gallery-Template/
-----
+title: /gallery/index
+page_variable: gallery
+Gallery_Page: gallery
+Gallery_Name: gallery
+---
+
 
 {% include header.md %}
 
 # gallery
 
 ----
-
+<div class="image-container-gallery ImgContainer">
+</div>
 ----
 
 
@@ -18,6 +22,14 @@ page_variable:https://pauliver.github.io/Photo-Gallery-Template/
 [Home]( ../)
 
 ----
+
+<script>
+
+{% include single-gallery.js %}
+
+SetupGallery(".image-container-gallery ImgContainer");
+
+</script>
 
 {% include footer.md %}
 
