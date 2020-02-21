@@ -8,6 +8,7 @@ env:
   Owner: "pauliver"
   # https://help.github.com/en/actions/configuring-and-managing-workflows/using-environment-variables#default-environment-variables
 
+
 on:
   push:
     branches: [master]
@@ -85,6 +86,7 @@ jobs:
           docker run \
           -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
           jekyll/builder:latest /bin/bash -c "chmod 777 /srv/jekyll && jekyll build --future"
+
   merge_pr_if_sucess:
     name: Merge the PR we created
     needs: [build_jekyll_site]
@@ -93,12 +95,14 @@ jobs:
       matrix:
         dotnet: [ '3.1.100' ]
     steps:
-      - name: automerge
-        uses: "pascalgn/automerge-action@ecb16453ce68e85b1e23596c8caa7e7499698a84"
+      - uses: actions/checkout@master
+      - name: Merge Now Please
+        uses: devmasx/merge-branch@v1.1.0
+        with:
+          type: now
+          #label_name: ${{env.AutoMergeLabel}}
+          target_branch: ${{env.GHPages}}
         env:
-          GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
-          MERGE_LABELS: ${{env.AutoMergeLabel}},"!work in progress"
-          MERGE_REMOVE_LABELS: ${{env.AutoMergeLabel}}
-          MERGE_DELETE_BRANCH: false	
-          UPDATE_METHOD: "merge"
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+
           
