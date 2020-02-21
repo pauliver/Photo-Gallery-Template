@@ -67,11 +67,11 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           directory: main   
       
-      - name: Build the Pull Request (hopefully)
-        run: dotnet  ${{github.workspace}}\ImgTools\bin\Release\netcoreapp3.1\CSharp-Image-Action.dll  ${{github.workspace}}\main\gallery\ ${{github.workspace}}\main\ https://${{env.URL}} True ${{env.Repo}} ${{env.Owner}} ${{env.CurrentBranch}} ${{env.GHPages}} ${{env.AutoMergeLabel}}
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          
+      #- name: Build the Pull Request (hopefully)
+      #  run: dotnet  ${{github.workspace}}\ImgTools\bin\Release\netcoreapp3.1\CSharp-Image-Action.dll  ${{github.workspace}}\main\gallery\ ${{github.workspace}}\main\ https://${{env.URL}} True ${{env.Repo}} ${{env.Owner}} ${{env.CurrentBranch}} ${{env.GHPages}} ${{env.AutoMergeLabel}}
+      #  env:
+      #    GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      #    
   build_jekyll_site:
     name: Build the site in the jekyll/builder container
     needs: process_images
@@ -104,5 +104,4 @@ jobs:
           target_branch: ${{env.GHPages}}
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
-
           
