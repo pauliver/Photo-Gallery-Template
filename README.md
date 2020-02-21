@@ -28,3 +28,11 @@ The Sample website consists of some files and a few folders
 # Index.md 
 
 The Index file 
+
+# For your future ReadMe.md file
+
+{% if false %}
+
+- [ ] checkbox toggle to make building easy
+
+{% endif %}
