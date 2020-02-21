@@ -11,7 +11,7 @@ env:
 on:
   push:
     branches: [master]
-# page_build: # Pretty sure this was triggering endlessly
+  page_build: # Pretty sure this was triggering endlessly
   pull_request:
     paths:
       - '**.jpg'
