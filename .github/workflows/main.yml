@@ -12,18 +12,18 @@ on:
   push:
     branches: [master]
   page_build: # Pretty sure this was triggering endlessly
-  #pull_request:
-  #  paths:
-  #    - '**.jpg'
-  #    - '**.jpeg'
-  #    - '**.png'
-  #    - '**.webp'
+  pull_request:
+    paths:
+      - '**.jpg'
+      - '**.jpeg'
+      - '**.png'
+      - '**.webp'
 
 jobs:
   process_images:
     name: Process Images with DotNet ${{ matrix.dotnet }}
     runs-on: [windows-latest]
-    strategy:
+    strateg:
       matrix:
         dotnet: [ '3.1.100' ]
     steps:
