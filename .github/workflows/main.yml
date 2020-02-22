@@ -23,7 +23,7 @@ jobs:
   process_images:
     name: Process Images with DotNet ${{ matrix.dotnet }}
     runs-on: [windows-latest]
-    strateg:
+    strategy:
       matrix:
         dotnet: [ '3.1.100' ]
     steps:
