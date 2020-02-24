@@ -1,7 +1,7 @@
 ---
-permalink: /Index.html
-title: Index
-page_variable: Index
+permalink: /index.html
+title: index
+page_variable: index
 Gallery_Page: true
 Gallery_Name: ALL
 ---
