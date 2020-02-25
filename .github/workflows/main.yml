@@ -11,7 +11,8 @@ env:
 on:
   push:
     branches: [master]
-  page_build: # Pretty sure this was triggering endlessly
+    paths-ignore: [_data/galleryjson.json,_includes/gallery.json]
+  page_build: 
   pull_request:
     paths:
       - '**.jpg'
