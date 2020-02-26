@@ -17,13 +17,13 @@ on:
       - master
   page_build: # Pretty sure this was triggering endlessly
   pull_request:
+    tags-ignore:
+      - automerge
     paths:
       - '**.jpg'
       - '**.jpeg'
       - '**.png'
       - '**.webp'
-    tags-ignore:
-      - automerge
 
 jobs:
   process_images:
