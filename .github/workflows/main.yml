@@ -10,15 +10,20 @@ env:
 
 on:
   push:
-    branches: [master]
-    paths-ignore: [_data/galleryjson.json,_includes/gallery.json]
-  page_build: 
+    paths-ignore:
+      - '_data/galleryjson.json'
+      - '_includes/gallery.json'
+    branches:   
+      - master
+  page_build: # Pretty sure this was triggering endlessly
   pull_request:
     paths:
       - '**.jpg'
       - '**.jpeg'
       - '**.png'
       - '**.webp'
+    tags-ignore:
+      - automerge
 
 jobs:
   process_images:
