@@ -116,5 +116,6 @@ jobs:
       
       - name: Run the MergeTool Tools
         run: dotnet  ${{github.workspace}}\MergeTool\bin\Release\netcoreapp3.1\Merge-Pull-Request.dll ${{env.Owner}} ${{env.Repo}} ${{env.AutoMergeLabel}}
-
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
