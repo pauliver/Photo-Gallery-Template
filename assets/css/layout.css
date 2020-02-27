@@ -1,4 +1,11 @@
 
+img.thumbnail-image{
+  border-radius: 1px;
+}
+
+img.rounded-corners{
+  border-radius: 2px;
+}
 
 .ImgContainer{
     position: relative;
