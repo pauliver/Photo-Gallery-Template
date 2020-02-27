@@ -30,9 +30,9 @@
     Plugin.prototype = {
         defaults: {
             template: function(data) {
-                return '<div class="photo-container" style="height:' + data.displayHeight + 'px;margin-right:' + data.marginRight + 'px;">' +
+                return '<div class="photo-container rounded-corners" style="height:' + data.displayHeight + 'px;margin-right:' + data.marginRight + 'px;">' +
                     '<a href="' + data.ResizedFilePath + '" data-fancybox="' + data.Folder + '" data-caption="' + data.Folder + ': ' + data.Name + '">' +
-                    '<img class="image-thumb" alt="' + data.Name + '" src="' + data.src + '" style="width:' + data.displayWidth + 'px;height:' + data.displayHeight + 'px;" >' +
+                    '<img class="image-thumb thumbnail-image" alt="' + data.Name + '" src="' + data.src + '" style="width:' + data.displayWidth + 'px;height:' + data.displayHeight + 'px;" >' +
                     '</a>' +
                     '</div>';
             },
