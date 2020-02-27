@@ -115,6 +115,6 @@ jobs:
         run: dotnet build MergeTool/ --configuration Release
       
       - name: Run the MergeTool Tools
-        run: dotnet  ${{github.workspace}}\MergeTool\bin\Release\netcoreapp3.1\Merge-Pull-Request-Csharp.dll ${{env.Owner}} ${{env.Repo}} ${{env.AutoMergeLabel}}
+        run: dotnet  ${{github.workspace}}\MergeTool\bin\Release\netcoreapp3.1\Merge-Pull-Request.dll ${{env.Owner}} ${{env.Repo}} ${{env.AutoMergeLabel}}
 
 
