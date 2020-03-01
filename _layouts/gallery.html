@@ -18,9 +18,6 @@ layout: default
 
       <h2 id="{{gallery.GalleryName}}" class="GalleryLink"> 
         <a href="{{gallery.FullDirectoryPath}}">{{gallery.GalleryName}}</a>
-        <a class="anchorjs-link " href="#{{gallery.GalleryName}}" aria-label="Anchor" data-anchorjs-icon="" style="font: 1em / 1 anchorjs-icons; padding-left: 0.375em;">
-          ::after
-        </a>
       </h2>
 
       <div class="image-container-{{gallery.GalleryName}} ImgContainer">
@@ -38,9 +35,6 @@ layout: default
 
       <h3 id="{{subGalleries.GalleryName}}" class="GalleryLink"> 
         <a href="{{subGalleries.FullDirectoryPath}}">{{subGalleries.GalleryName}}</a>
-        <a class="anchorjs-link " href="#{{subGalleries.GalleryName}}" aria-label="Anchor" data-anchorjs-icon="" style="font: 1em / 1 anchorjs-icons; padding-left: 0.375em;">
-          ::after
-        </a>
       </h3>
 
       <div class="image-container-{{subGalleries.GalleryName}} ImgContainer">
@@ -56,12 +50,9 @@ layout: default
 
       {% for ThreesubGalleries in subGalleries.PhotoGalleries %}
 
-      <h3 id="{{ThreesubGalleries.GalleryName}}" class="GalleryLink"> 
+      <h4 id="{{ThreesubGalleries.GalleryName}}" class="GalleryLink"> 
         <a href="{{ThreesubGalleries.FullDirectoryPath}}">{{ThreesubGalleries.GalleryName}}</a>
-        <a class="anchorjs-link " href="#{{ThreesubGalleries.GalleryName}}" aria-label="Anchor" data-anchorjs-icon="" style="font: 1em / 1 anchorjs-icons; padding-left: 0.375em;">
-          ::after
-        </a>
-      </h3>
+      </h4>
 
       <div class="image-container-{{ThreesubGalleries.GalleryName}} ImgContainer">       
       {% for Threesubimages in ThreesubGalleries.Images %}
