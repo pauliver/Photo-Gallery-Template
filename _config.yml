@@ -3,3 +3,7 @@ useheader: false
 include: [/gallery/, /gallery/*, /_data/galleryjson.json]
 exclude: [/coldstorage/OriginalImages/, /coldstorage/OriginalImages/*]
 show_drafts: false
+plugins:
+  - jekyll-seo-tag
+baseurl: "/"
+repository: "pauliver/Photo-Gallery-Template"

@@ -1,0 +1,93 @@
+---
+layout: default
+---
+
+{% include header.md %}
+
+
+    <div class="Content">
+    {{ content }}
+    </div>
+
+    <!-- Post Main Content Gallery (or should it be {{ layout.##### }} nope, it was page. ) -->
+    <div class="PostContentGallery">
+    {% if page.Gallery_Page %}
+
+      {% for gallery in site.data.galleryjson.PhotoGalleries %}
+      {% if page.Gallery_Name == "ALL" or gallery.GalleryName == page.Gallery_Name %}
+
+      <h2 id="{{gallery.GalleryName}}" class="GalleryLink"> 
+        <a href="{{gallery.FullDirectoryPath}}">{{gallery.GalleryName}}</a>
+        <a class="anchorjs-link " href="#{{gallery.GalleryName}}" aria-label="Anchor" data-anchorjs-icon="" style="font: 1em / 1 anchorjs-icons; padding-left: 0.375em;">
+          ::after
+        </a>
+      </h2>
+
+      <div class="image-container-{{gallery.GalleryName}} ImgContainer">
+      {% for images in gallery.Images %}
+
+      <!-- [![{{images.ThumbnailName}}]({{images.ThumbnailFilePath}})]({{gallery.FullDirectoryPath}}) -->
+      <a href="{{images.ResizedFilePath}}" data-fancybox="{{gallery.GalleryName}}" data-caption="{{gallery.GalleryName}} : {{images.Name}}">
+        <img class="image-thumb" src="{{images.ThumbnailFilePath}}" alt="{{images.Name}}}" />
+      </a>
+
+      {% endfor %}
+      </div>
+
+      {% for subGalleries in gallery.PhotoGalleries %}
+
+      <h3 id="{{subGalleries.GalleryName}}" class="GalleryLink"> 
+        <a href="{{subGalleries.FullDirectoryPath}}">{{subGalleries.GalleryName}}</a>
+        <a class="anchorjs-link " href="#{{subGalleries.GalleryName}}" aria-label="Anchor" data-anchorjs-icon="" style="font: 1em / 1 anchorjs-icons; padding-left: 0.375em;">
+          ::after
+        </a>
+      </h3>
+
+      <div class="image-container-{{subGalleries.GalleryName}} ImgContainer">
+      {% for subimages in subGalleries.Images %}
+
+      <!--[![{{subimages.ThumbnailName}}]({{subimages.ThumbnailFilePath}})]({{subGalleries.GalleryIndexHTMLFile}}) -->
+      <a href="{{subimages.ResizedFilePath}}" data-fancybox="{{subGalleries.GalleryName}}" data-caption="{{subGalleries.GalleryName}} : {{subimages.Name}}">
+        <img class="image-thumb" src="{{subimages.ThumbnailFilePath}}" alt="{{subimages.Name}}}" />
+      </a>
+
+      {% endfor %}
+      </div>
+
+      {% for ThreesubGalleries in subGalleries.PhotoGalleries %}
+
+      <h3 id="{{ThreesubGalleries.GalleryName}}" class="GalleryLink"> 
+        <a href="{{ThreesubGalleries.FullDirectoryPath}}">{{ThreesubGalleries.GalleryName}}</a>
+        <a class="anchorjs-link " href="#{{ThreesubGalleries.GalleryName}}" aria-label="Anchor" data-anchorjs-icon="" style="font: 1em / 1 anchorjs-icons; padding-left: 0.375em;">
+          ::after
+        </a>
+      </h3>
+
+      <div class="image-container-{{ThreesubGalleries.GalleryName}} ImgContainer">       
+      {% for Threesubimages in ThreesubGalleries.Images %}
+
+      <!-- [![{{Threesubimages.ThumbnailName}}]({{Threesubimages.ThumbnailFilePath}})]({{ThreesubGalleries.GalleryIndexHTMLFile}}) -->
+      <a href="{{Threesubimages.ResizedFilePath}}" data-fancybox="{{ThreesubGalleries.GalleryName}}" data-caption="{{ThreesubGalleries.GalleryName}} : {{Threesubimages.Name}}">
+        <img class="image-thumb" src="{{Threesubimages.ThumbnailFilePath}}" alt="{{Threesubimages.Name}}}" />
+      </a>
+
+      {% endfor %}
+      </div>
+
+      {% endfor %}
+
+      {% endfor %}
+
+      {% endif %}
+      {% endfor %}
+
+      {% endif %}
+      </div>
+      <script>
+
+      {% include gallery.js %}
+
+      </script> 
+
+
+{% include footer.md %}
