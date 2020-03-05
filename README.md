@@ -8,7 +8,7 @@ page_variable: ReadMe
 
 # Photo Gallery Template
 
-Clone this template repo, make sure the repo name is your domain name *(we use the repo name as a variable in scripts so domain.extension)* which uses [this action](https://github.com/pauliver/CSharp-Image-Action) and GitHub Pages
+Clone this template repo, make sure the repo name is your domain name in the form of Domain.Extention *(we use the repo name as a variable in scripts so the script is expecting to find domain.extension)*. If you go with something else, you can always submit pull requests or fork [this action](https://github.com/pauliver/CSharp-Image-Action). 
 
 Then add photos to the [/gallery/](./gallery/) folder and any subfolders you wish to create under it
 
