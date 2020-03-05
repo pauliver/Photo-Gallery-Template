@@ -23,18 +23,18 @@ img.rounded-corners{
 body {
  margin: 0px;
  padding: 10px;
- background-color: #545454;
+ background-color: #FFFFFF;
 }
 p {
  font-family: Georgia, "Times New Roman", Times, serif;
  font-size: 14px;
- color: #CBCBCB;
+ color: #555555;
 }
 ul {
  list-style: square;
  font-family: Georgia, "Times New Roman", Times, serif;
  font-size: 14px;
- color: #CBCBCB;
+ color: #FF0000;
 }
 h1 {
  font-family: Arial, Helvetica, sans-serif;
@@ -46,52 +46,52 @@ h2 {
  font-family: Arial, Helvetica, sans-serif;
  font-size: 24px;
  font-weight: bold;
- color: #D2D2D2;
+ color: #FF0000;
 }
 h3 {
  font-family: Arial, Helvetica, sans-serif;
  font-size: 20px;
  font-weight: bold;
- color: #D2D2D2;
+ color: #FF0000;
 }
 h4 {
  font-family: Arial, Helvetica, sans-serif;
  font-size: 18px;
  font-weight: bold;
- color: #D2D2D2;
+ color: #FF0000;
 }
 h1, h2, h3, h4{
  a{
     font-weight: normal;
     text-decoration: none;
-    color: #F0F0F0;
+    color: #FF0000;
     &:hover{
      font-weight: normal;
      text-decoration: underline;
-     color: #A0d4d4;
-     background: #545454;
+     color: #FF0000;
+     background: #C0C0C0;
   }
  }
 }  
 a:link {
  font-weight: normal;
  text-decoration: none;
- color: #F0F0F0;
+ color: #FF0000;
  }
 a:visited {
  font-weight: normal;
  text-decoration: none;
- color: #999999;
+ color: #C0C0C0;
  }
 a:hover {
  font-weight: normal;
  text-decoration: underline;
- color: #A0d4d4;
- background: #545454;
+ color: #FF0000;
+ background: #C0C0C0;
  }
 a:active {
  font-weight: normal;
  text-decoration: none;
- color: #7F7F7F;
- background: #545454;
+ color: #FF0000;
+ background: #000000;
  }
