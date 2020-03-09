@@ -6,8 +6,7 @@ env:
   CurrentBranch: "master"
   Repo: "Photo-Gallery-Template"
   Owner: "pauliver"
-  
-
+ 
 on:
   push:
     paths-ignore:
@@ -53,29 +52,12 @@ jobs:
 
       - name: Build Image Tools
         run: dotnet build ImgTools/ --configuration Release
-      
-      - name: Run the Image Tools
-        run: dotnet  ${{github.workspace}}\ImgTools\bin\Release\netcoreapp3.1\CSharp-Image-Action.dll  ${{github.workspace}}\main\gallery\ ${{github.workspace}}\main\ https://${{env.URL}} 
-
-      - name: Commit the resized files and .json
-        run: |
-          git config --local user.email "actions@users.noreply.github.com"
-          git config --local user.name "GitHub Action"
-          cp ./_data/galleryjson.json ./_includes/gallery.json
-          git add *
-          git commit -m "Add resized images" -a
-        working-directory: main 
-        shell: powershell
-      - name: Push changes
-        uses: ad-m/github-push-action@master
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          directory: main   
-      
-      - name: Build the Pull Request (hopefully)
+        
+      - name: The Image tool should ReSize Images, Add them to a Change List, commit them, and build a PR
         run: dotnet  ${{github.workspace}}\ImgTools\bin\Release\netcoreapp3.1\CSharp-Image-Action.dll  ${{github.workspace}}\main\gallery\ ${{github.workspace}}\main\ https://${{env.URL}} True ${{env.Repo}} ${{env.Owner}} ${{env.CurrentBranch}} ${{env.GHPages}} ${{env.AutoMergeLabel}}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        if: "github.ref == 'refs/heads/master'" #if we aren't the head revision, we won't check in, so bail out
           
   build_jekyll_site:
     name: Build the site in the jekyll/builder container
@@ -92,7 +74,6 @@ jobs:
           -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
           jekyll/builder:latest /bin/bash -c "chmod 777 /srv/jekyll && jekyll build --future"
 
- 
   merge_pr_if_sucess:
     name: Merge the PR we created
     needs: [process_images, build_jekyll_site]
@@ -119,3 +100,29 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
+  Cleanup_if_we_had_falures:
+    name: close the PR, if all else failed
+    needs: [process_images, build_jekyll_site, merge_pr_if_sucess]
+    runs-on: [windows-latest]
+    strategy:
+      matrix:
+        dotnet: [ '3.1.100' ]
+    steps:
+      - name: Setup dotnet
+        uses: actions/setup-dotnet@v1
+        with:
+          dotnet-version: ${{ matrix.dotnet }}
+      - name: Checkout Merge Tool
+        uses: actions/checkout@v2
+        with:
+          repository: pauliver/Merge-Pull-Request-Csharp
+          path: MergeTool
+
+      - name: Build merge tool Tools
+        run: dotnet build MergeTool/ --configuration Release
+      
+      # Write new code, check if a PR with the correct title / label is open, if so, close it, but still FAIL
+      #- name: Run the MergeTool Tools
+      #  run: dotnet  ${{github.workspace}}\MergeTool\bin\Release\netcoreapp3.1\Merge-Pull-Request.dll ${{env.Owner}} ${{env.Repo}} ${{env.AutoMergeLabel}}
+      #  env:
+      #    GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
