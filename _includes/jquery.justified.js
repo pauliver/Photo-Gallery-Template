@@ -133,8 +133,7 @@
                     lastRow = true;
                 }
                 tw = -1 * border;
-                //@@ Pauliver - on mac in safari, we were overflowing due to scroll bars, subrtracting 13 from W to fix it
-                var newBlock = this.getBlockInRow(lastRow ? -1 : rowNum), availableRowWidth = (w - 13);
+                var newBlock = this.getBlockInRow(lastRow ? -1 : rowNum), availableRowWidth = w;
                 if(newBlock){
                     availableRowWidth -= newBlock.width;
                     tw = 0;
