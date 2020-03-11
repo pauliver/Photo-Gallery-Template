@@ -12,10 +12,20 @@
       "FullDirectoryPath": "/gallery/SubGallery",
       "GalleryIndexHTMLFile": "/gallery/SubGallery.html",
       "GalleryIndexMarkdownFile": "/gallery/SubGallery.md",
-      "GalleryThumbnail": null,
+      "GalleryThumbnail": "gallery\\Thumbnails\\thumbnail-SubGallery-DA860723-B666-4527-B322-3FBEFB26F029_1_105_c.jpeg",
       "PhotoGalleries": [],
-      "Images": [],
-      "GeneratedDateTime": "3/11/2020 7:31:56 PM"
+      "Images": [
+        {
+          "ImageWidth": 1021,
+          "ImageHeight": 770,
+          "Name": "DA860723-B666-4527-B322-3FBEFB26F029_1_105_c.jpeg",
+          "Folder": "/gallery/SubGallery",
+          "OriginalFilePath": "gallery\\SubGallery\\DA860723-B666-4527-B322-3FBEFB26F029_1_105_c.jpeg",
+          "ResizedFilePath": "gallery\\SubGallery\\resized-DA860723-B666-4527-B322-3FBEFB26F029_1_105_c.jpeg",
+          "ThumbnailFilePath": "gallery\\Thumbnails\\thumbnail-SubGallery-DA860723-B666-4527-B322-3FBEFB26F029_1_105_c.jpeg"
+        }
+      ],
+      "GeneratedDateTime": "3/11/2020 7:33:27 PM"
     }
   ],
   "Images": [
@@ -47,5 +57,5 @@
       "ThumbnailFilePath": "gallery\\Thumbnails\\thumbnail-gallery-EA9486AC-A69E-4F0F-98FD-BEF1D3C710E2_1_105_c.jpeg"
     }
   ],
-  "GeneratedDateTime": "3/11/2020 7:31:56 PM"
+  "GeneratedDateTime": "3/11/2020 7:33:27 PM"
 }
