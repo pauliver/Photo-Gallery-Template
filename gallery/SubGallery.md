@@ -19,6 +19,9 @@ Gallery_Name: SubGallery
 <a href="SubGallery/resized-EmpowerYourTeam.jpeg" data-fancybox="gallery/Thumbnails/thumbnail-SubGallery-EmpowerYourTeam.jpeg" data-caption="EmpowerYourTeam.jpeg">
     <img class="image-thumb" src="https://example.pauliver.com/gallery/Thumbnails/thumbnail-SubGallery-EmpowerYourTeam.jpeg" alt="EmpowerYourTeam.jpeg" />
 </a>
+<a href="SubGallery/resized-FC62D19C-AEC8-4468-89C7-A2A5D7420333_1_105_c.jpeg" data-fancybox="gallery/Thumbnails/thumbnail-SubGallery-FC62D19C-AEC8-4468-89C7-A2A5D7420333_1_105_c.jpeg" data-caption="FC62D19C-AEC8-4468-89C7-A2A5D7420333_1_105_c.jpeg">
+    <img class="image-thumb" src="https://example.pauliver.com/gallery/Thumbnails/thumbnail-SubGallery-FC62D19C-AEC8-4468-89C7-A2A5D7420333_1_105_c.jpeg" alt="FC62D19C-AEC8-4468-89C7-A2A5D7420333_1_105_c.jpeg" />
+</a>
 <a href="SubGallery/resized-LetsDoThis.jpg" data-fancybox="gallery/Thumbnails/thumbnail-SubGallery-LetsDoThis.jpg" data-caption="LetsDoThis.jpg">
     <img class="image-thumb" src="https://example.pauliver.com/gallery/Thumbnails/thumbnail-SubGallery-LetsDoThis.jpg" alt="LetsDoThis.jpg" />
 </a>
