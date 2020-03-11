@@ -28,6 +28,8 @@ Gallery_Name: gallery
 ### [SubGallery]( ./SubGallery.html)
 [ ![SubGallery-Thumbnail](/Thumbnails/thumbnail-SubGallery-DA860723-B666-4527-B322-3FBEFB26F029_1_105_c.jpeg)]( ./SubGallery.html)
 
+### [ZoomBackgrounds]( ./ZoomBackgrounds.html)
+
 
 [Gallery]( ./index.html)
   or 
@@ -45,4 +47,4 @@ SetupGallery(".image-container-gallery ImgContainer");
 
 {% include footer.md %}
 
-<!-- created on 03/11/2020 7:33 PM -->
+<!-- created on 03/11/2020 7:42 PM -->
