@@ -4,8 +4,58 @@
   "FullDirectoryPath": "/gallery/",
   "GalleryIndexHTMLFile": "/gallery/Index.html",
   "GalleryIndexMarkdownFile": "/gallery/Index.md",
-  "GalleryThumbnail": null,
-  "PhotoGalleries": [],
-  "Images": [],
-  "GeneratedDateTime": "3/11/2020 7:18:11 PM"
+  "GalleryThumbnail": "gallery\\Thumbnails\\thumbnail-gallery-00DF49F2-26B4-47FD-B621-5BABC1487215_1_105_c.jpeg",
+  "PhotoGalleries": [
+    {
+      "GalleryName": "SubGallery",
+      "DirectoryName": "/SubGallery",
+      "FullDirectoryPath": "/gallery/SubGallery",
+      "GalleryIndexHTMLFile": "/gallery/SubGallery.html",
+      "GalleryIndexMarkdownFile": "/gallery/SubGallery.md",
+      "GalleryThumbnail": "gallery\\Thumbnails\\thumbnail-SubGallery-DA860723-B666-4527-B322-3FBEFB26F029_1_105_c.jpeg",
+      "PhotoGalleries": [],
+      "Images": [
+        {
+          "ImageWidth": 1021,
+          "ImageHeight": 770,
+          "Name": "DA860723-B666-4527-B322-3FBEFB26F029_1_105_c.jpeg",
+          "Folder": "/gallery/SubGallery",
+          "OriginalFilePath": "gallery\\SubGallery\\DA860723-B666-4527-B322-3FBEFB26F029_1_105_c.jpeg",
+          "ResizedFilePath": "gallery\\SubGallery\\resized-DA860723-B666-4527-B322-3FBEFB26F029_1_105_c.jpeg",
+          "ThumbnailFilePath": "gallery\\Thumbnails\\thumbnail-SubGallery-DA860723-B666-4527-B322-3FBEFB26F029_1_105_c.jpeg"
+        }
+      ],
+      "GeneratedDateTime": "3/11/2020 7:33:28 PM"
+    }
+  ],
+  "Images": [
+    {
+      "ImageWidth": 805,
+      "ImageHeight": 1024,
+      "Name": "00DF49F2-26B4-47FD-B621-5BABC1487215_1_105_c.jpeg",
+      "Folder": "/gallery/",
+      "OriginalFilePath": "gallery\\00DF49F2-26B4-47FD-B621-5BABC1487215_1_105_c.jpeg",
+      "ResizedFilePath": "gallery\\resized-00DF49F2-26B4-47FD-B621-5BABC1487215_1_105_c.jpeg",
+      "ThumbnailFilePath": "gallery\\Thumbnails\\thumbnail-gallery-00DF49F2-26B4-47FD-B621-5BABC1487215_1_105_c.jpeg"
+    },
+    {
+      "ImageWidth": 1580,
+      "ImageHeight": 2708,
+      "Name": "E7835038-7D81-40A1-9ACC-CA0EEF146297_1_201_a.jpeg",
+      "Folder": "/gallery/",
+      "OriginalFilePath": "gallery\\E7835038-7D81-40A1-9ACC-CA0EEF146297_1_201_a.jpeg",
+      "ResizedFilePath": "gallery\\resized-E7835038-7D81-40A1-9ACC-CA0EEF146297_1_201_a.jpeg",
+      "ThumbnailFilePath": "gallery\\Thumbnails\\thumbnail-gallery-E7835038-7D81-40A1-9ACC-CA0EEF146297_1_201_a.jpeg"
+    },
+    {
+      "ImageWidth": 768,
+      "ImageHeight": 1024,
+      "Name": "EA9486AC-A69E-4F0F-98FD-BEF1D3C710E2_1_105_c.jpeg",
+      "Folder": "/gallery/",
+      "OriginalFilePath": "gallery\\EA9486AC-A69E-4F0F-98FD-BEF1D3C710E2_1_105_c.jpeg",
+      "ResizedFilePath": "gallery\\resized-EA9486AC-A69E-4F0F-98FD-BEF1D3C710E2_1_105_c.jpeg",
+      "ThumbnailFilePath": "gallery\\Thumbnails\\thumbnail-gallery-EA9486AC-A69E-4F0F-98FD-BEF1D3C710E2_1_105_c.jpeg"
+    }
+  ],
+  "GeneratedDateTime": "3/11/2020 7:33:28 PM"
 }
