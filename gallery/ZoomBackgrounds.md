@@ -13,6 +13,12 @@ Gallery_Name: ZoomBackgrounds
 
 ----
 <div class="image-container-ZoomBackgrounds ImgContainer">
+<a href="ZoomBackgrounds/resized-Take things and go.jpg" data-fancybox="gallery/Thumbnails/thumbnail-ZoomBackgrounds-Take things and go.jpg" data-caption="Take things and go.jpg">
+    <img class="image-thumb" src="https://example.pauliver.com/gallery/Thumbnails/thumbnail-ZoomBackgrounds-Take things and go.jpg" alt="Take things and go.jpg" />
+</a>
+<a href="ZoomBackgrounds/resized-ZoomBackground.jpeg" data-fancybox="gallery/Thumbnails/thumbnail-ZoomBackgrounds-ZoomBackground.jpeg" data-caption="ZoomBackground.jpeg">
+    <img class="image-thumb" src="https://example.pauliver.com/gallery/Thumbnails/thumbnail-ZoomBackgrounds-ZoomBackground.jpeg" alt="ZoomBackground.jpeg" />
+</a>
 </div>
 ----
 
@@ -33,4 +39,4 @@ SetupGallery(".image-container-ZoomBackgrounds ImgContainer");
 
 {% include footer.md %}
 
-<!-- created on 03/11/2020 7:42 PM -->
+<!-- created on 03/11/2020 7:43 PM -->
