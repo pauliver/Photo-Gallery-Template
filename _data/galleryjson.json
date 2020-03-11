@@ -23,9 +23,84 @@
           "OriginalFilePath": "gallery\\SubGallery\\DA860723-B666-4527-B322-3FBEFB26F029_1_105_c.jpeg",
           "ResizedFilePath": "gallery\\SubGallery\\resized-DA860723-B666-4527-B322-3FBEFB26F029_1_105_c.jpeg",
           "ThumbnailFilePath": "gallery\\Thumbnails\\thumbnail-SubGallery-DA860723-B666-4527-B322-3FBEFB26F029_1_105_c.jpeg"
+        },
+        {
+          "ImageWidth": 800,
+          "ImageHeight": 447,
+          "Name": "EmpowerYourTeam.jpeg",
+          "Folder": "/gallery/SubGallery",
+          "OriginalFilePath": "gallery\\SubGallery\\EmpowerYourTeam.jpeg",
+          "ResizedFilePath": "gallery\\SubGallery\\resized-EmpowerYourTeam.jpeg",
+          "ThumbnailFilePath": "gallery\\Thumbnails\\thumbnail-SubGallery-EmpowerYourTeam.jpeg"
+        },
+        {
+          "ImageWidth": 3986,
+          "ImageHeight": 1081,
+          "Name": "LetsDoThis.jpg",
+          "Folder": "/gallery/SubGallery",
+          "OriginalFilePath": "gallery\\SubGallery\\LetsDoThis.jpg",
+          "ResizedFilePath": "gallery\\SubGallery\\resized-LetsDoThis.jpg",
+          "ThumbnailFilePath": "gallery\\Thumbnails\\thumbnail-SubGallery-LetsDoThis.jpg"
+        },
+        {
+          "ImageWidth": 4032,
+          "ImageHeight": 3024,
+          "Name": "Needs.jpg",
+          "Folder": "/gallery/SubGallery",
+          "OriginalFilePath": "gallery\\SubGallery\\Needs.jpg",
+          "ResizedFilePath": "gallery\\SubGallery\\resized-Needs.jpg",
+          "ThumbnailFilePath": "gallery\\Thumbnails\\thumbnail-SubGallery-Needs.jpg"
+        },
+        {
+          "ImageWidth": 600,
+          "ImageHeight": 450,
+          "Name": "passed_all_tests.png",
+          "Folder": "/gallery/SubGallery",
+          "OriginalFilePath": "gallery\\SubGallery\\passed_all_tests.png",
+          "ResizedFilePath": "gallery\\SubGallery\\resized-passed_all_tests.png",
+          "ThumbnailFilePath": "gallery\\Thumbnails\\thumbnail-SubGallery-passed_all_tests.png"
+        },
+        {
+          "ImageWidth": 2269,
+          "ImageHeight": 2146,
+          "Name": "UseACoaster.jpeg",
+          "Folder": "/gallery/SubGallery",
+          "OriginalFilePath": "gallery\\SubGallery\\UseACoaster.jpeg",
+          "ResizedFilePath": "gallery\\SubGallery\\resized-UseACoaster.jpeg",
+          "ThumbnailFilePath": "gallery\\Thumbnails\\thumbnail-SubGallery-UseACoaster.jpeg"
         }
       ],
-      "GeneratedDateTime": "3/11/2020 7:33:27 PM"
+      "GeneratedDateTime": "3/11/2020 7:44:14 PM"
+    },
+    {
+      "GalleryName": "ZoomBackgrounds",
+      "DirectoryName": "/ZoomBackgrounds",
+      "FullDirectoryPath": "/gallery/ZoomBackgrounds",
+      "GalleryIndexHTMLFile": "/gallery/ZoomBackgrounds.html",
+      "GalleryIndexMarkdownFile": "/gallery/ZoomBackgrounds.md",
+      "GalleryThumbnail": "gallery\\Thumbnails\\thumbnail-ZoomBackgrounds-Take things and go.jpg",
+      "PhotoGalleries": [],
+      "Images": [
+        {
+          "ImageWidth": 960,
+          "ImageHeight": 305,
+          "Name": "Take things and go.jpg",
+          "Folder": "/gallery/ZoomBackgrounds",
+          "OriginalFilePath": "gallery\\ZoomBackgrounds\\Take things and go.jpg",
+          "ResizedFilePath": "gallery\\ZoomBackgrounds\\resized-Take things and go.jpg",
+          "ThumbnailFilePath": "gallery\\Thumbnails\\thumbnail-ZoomBackgrounds-Take things and go.jpg"
+        },
+        {
+          "ImageWidth": 1024,
+          "ImageHeight": 768,
+          "Name": "ZoomBackground.jpeg",
+          "Folder": "/gallery/ZoomBackgrounds",
+          "OriginalFilePath": "gallery\\ZoomBackgrounds\\ZoomBackground.jpeg",
+          "ResizedFilePath": "gallery\\ZoomBackgrounds\\resized-ZoomBackground.jpeg",
+          "ThumbnailFilePath": "gallery\\Thumbnails\\thumbnail-ZoomBackgrounds-ZoomBackground.jpeg"
+        }
+      ],
+      "GeneratedDateTime": "3/11/2020 7:44:14 PM"
     }
   ],
   "Images": [
@@ -57,5 +132,5 @@
       "ThumbnailFilePath": "gallery\\Thumbnails\\thumbnail-gallery-EA9486AC-A69E-4F0F-98FD-BEF1D3C710E2_1_105_c.jpeg"
     }
   ],
-  "GeneratedDateTime": "3/11/2020 7:33:27 PM"
+  "GeneratedDateTime": "3/11/2020 7:44:14 PM"
 }
