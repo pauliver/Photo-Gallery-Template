@@ -17,21 +17,29 @@ The Sample website consists of some files and a few folders
 - actions .yml file
 - generated .json file
 - folder to put your images in
-- Ondex.md 
+- index.md 
+- Some images in folders to show you how everything works together
 
 # Actions .yml file
 
+*add a better description of what is going on, and a link to the file here*
+
 # generated galleryjson.json file
+
+*add a better description of what is going on, and a link to the file here*
 
 # Folder to put the images in 
 
-# Index.md 
+*add a better description of what is going on, and a link to the file here*
 
-The Index file 
+# index.md 
 
-# For your future ReadMe.md file
+*add a better description of what is going on, and a link to the file here*
+
 
 {% if false %}
+
+# For your future ReadMe.md file
 
 - [ ] checkbox toggle to make building easy
 
