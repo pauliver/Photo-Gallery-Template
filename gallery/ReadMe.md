@@ -1,3 +1,3 @@
 # ReadMe.md
 
-Create subfolders here, and put all your images here and in them.
+Create subfolders here, and put all your images in them.
