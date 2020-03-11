@@ -7,6 +7,6 @@ Gallery_Page: true
 Gallery_Name: ALL
 ---
 
-Welcome to the Photo-Gallery-Template! 
+Welcome to {{ site.github.project_title }} ! 
 
 Add some words here
