@@ -16,6 +16,21 @@ Gallery_Name: SubGallery
 <a href="SubGallery/resized-DA860723-B666-4527-B322-3FBEFB26F029_1_105_c.jpeg" data-fancybox="gallery/Thumbnails/thumbnail-SubGallery-DA860723-B666-4527-B322-3FBEFB26F029_1_105_c.jpeg" data-caption="DA860723-B666-4527-B322-3FBEFB26F029_1_105_c.jpeg">
     <img class="image-thumb" src="https://example.pauliver.com/gallery/Thumbnails/thumbnail-SubGallery-DA860723-B666-4527-B322-3FBEFB26F029_1_105_c.jpeg" alt="DA860723-B666-4527-B322-3FBEFB26F029_1_105_c.jpeg" />
 </a>
+<a href="SubGallery/resized-EmpowerYourTeam.jpeg" data-fancybox="gallery/Thumbnails/thumbnail-SubGallery-EmpowerYourTeam.jpeg" data-caption="EmpowerYourTeam.jpeg">
+    <img class="image-thumb" src="https://example.pauliver.com/gallery/Thumbnails/thumbnail-SubGallery-EmpowerYourTeam.jpeg" alt="EmpowerYourTeam.jpeg" />
+</a>
+<a href="SubGallery/resized-LetsDoThis.jpg" data-fancybox="gallery/Thumbnails/thumbnail-SubGallery-LetsDoThis.jpg" data-caption="LetsDoThis.jpg">
+    <img class="image-thumb" src="https://example.pauliver.com/gallery/Thumbnails/thumbnail-SubGallery-LetsDoThis.jpg" alt="LetsDoThis.jpg" />
+</a>
+<a href="SubGallery/resized-Needs.jpg" data-fancybox="gallery/Thumbnails/thumbnail-SubGallery-Needs.jpg" data-caption="Needs.jpg">
+    <img class="image-thumb" src="https://example.pauliver.com/gallery/Thumbnails/thumbnail-SubGallery-Needs.jpg" alt="Needs.jpg" />
+</a>
+<a href="SubGallery/resized-passed_all_tests.png" data-fancybox="gallery/Thumbnails/thumbnail-SubGallery-passed_all_tests.png" data-caption="passed_all_tests.png">
+    <img class="image-thumb" src="https://example.pauliver.com/gallery/Thumbnails/thumbnail-SubGallery-passed_all_tests.png" alt="passed_all_tests.png" />
+</a>
+<a href="SubGallery/resized-UseACoaster.jpeg" data-fancybox="gallery/Thumbnails/thumbnail-SubGallery-UseACoaster.jpeg" data-caption="UseACoaster.jpeg">
+    <img class="image-thumb" src="https://example.pauliver.com/gallery/Thumbnails/thumbnail-SubGallery-UseACoaster.jpeg" alt="UseACoaster.jpeg" />
+</a>
 </div>
 ----
 
@@ -36,4 +51,4 @@ SetupGallery(".image-container-SubGallery ImgContainer");
 
 {% include footer.md %}
 
-<!-- created on 03/11/2020 7:43 PM -->
+<!-- created on 03/11/2020 7:44 PM -->
