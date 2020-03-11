@@ -25,7 +25,18 @@
           "ThumbnailFilePath": "gallery\\Thumbnails\\thumbnail-SubGallery-DA860723-B666-4527-B322-3FBEFB26F029_1_105_c.jpeg"
         }
       ],
-      "GeneratedDateTime": "3/11/2020 7:33:27 PM"
+      "GeneratedDateTime": "3/11/2020 7:42:33 PM"
+    },
+    {
+      "GalleryName": "ZoomBackgrounds",
+      "DirectoryName": "/ZoomBackgrounds",
+      "FullDirectoryPath": "/gallery/ZoomBackgrounds",
+      "GalleryIndexHTMLFile": "/gallery/ZoomBackgrounds.html",
+      "GalleryIndexMarkdownFile": "/gallery/ZoomBackgrounds.md",
+      "GalleryThumbnail": null,
+      "PhotoGalleries": [],
+      "Images": [],
+      "GeneratedDateTime": "3/11/2020 7:42:33 PM"
     }
   ],
   "Images": [
@@ -57,5 +68,5 @@
       "ThumbnailFilePath": "gallery\\Thumbnails\\thumbnail-gallery-EA9486AC-A69E-4F0F-98FD-BEF1D3C710E2_1_105_c.jpeg"
     }
   ],
-  "GeneratedDateTime": "3/11/2020 7:33:27 PM"
+  "GeneratedDateTime": "3/11/2020 7:42:33 PM"
 }
