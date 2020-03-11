@@ -5,7 +5,19 @@
   "GalleryIndexHTMLFile": "/gallery/Index.html",
   "GalleryIndexMarkdownFile": "/gallery/Index.md",
   "GalleryThumbnail": "gallery\\Thumbnails\\thumbnail-gallery-00DF49F2-26B4-47FD-B621-5BABC1487215_1_105_c.jpeg",
-  "PhotoGalleries": [],
+  "PhotoGalleries": [
+    {
+      "GalleryName": "SubGallery",
+      "DirectoryName": "/SubGallery",
+      "FullDirectoryPath": "/gallery/SubGallery",
+      "GalleryIndexHTMLFile": "/gallery/SubGallery.html",
+      "GalleryIndexMarkdownFile": "/gallery/SubGallery.md",
+      "GalleryThumbnail": null,
+      "PhotoGalleries": [],
+      "Images": [],
+      "GeneratedDateTime": "3/11/2020 7:31:56 PM"
+    }
+  ],
   "Images": [
     {
       "ImageWidth": 805,
@@ -35,5 +47,5 @@
       "ThumbnailFilePath": "gallery\\Thumbnails\\thumbnail-gallery-EA9486AC-A69E-4F0F-98FD-BEF1D3C710E2_1_105_c.jpeg"
     }
   ],
-  "GeneratedDateTime": "3/11/2020 7:31:38 PM"
+  "GeneratedDateTime": "3/11/2020 7:31:56 PM"
 }
