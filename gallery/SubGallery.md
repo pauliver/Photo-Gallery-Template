@@ -13,6 +13,9 @@ Gallery_Name: SubGallery
 
 ----
 <div class="image-container-SubGallery ImgContainer">
+<a href="SubGallery/resized-DA860723-B666-4527-B322-3FBEFB26F029_1_105_c.jpeg" data-fancybox="gallery/Thumbnails/thumbnail-SubGallery-DA860723-B666-4527-B322-3FBEFB26F029_1_105_c.jpeg" data-caption="DA860723-B666-4527-B322-3FBEFB26F029_1_105_c.jpeg">
+    <img class="image-thumb" src="https://example.pauliver.com/gallery/Thumbnails/thumbnail-SubGallery-DA860723-B666-4527-B322-3FBEFB26F029_1_105_c.jpeg" alt="DA860723-B666-4527-B322-3FBEFB26F029_1_105_c.jpeg" />
+</a>
 </div>
 ----
 
@@ -33,4 +36,4 @@ SetupGallery(".image-container-SubGallery ImgContainer");
 
 {% include footer.md %}
 
-<!-- created on 03/11/2020 7:31 PM -->
+<!-- created on 03/11/2020 7:33 PM -->
