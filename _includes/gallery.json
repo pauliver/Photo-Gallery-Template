@@ -25,15 +25,6 @@
           "ThumbnailFilePath": "gallery\\Thumbnails\\thumbnail-SubGallery-DA860723-B666-4527-B322-3FBEFB26F029_1_105_c.jpeg"
         },
         {
-          "ImageWidth": 800,
-          "ImageHeight": 447,
-          "Name": "EmpowerYourTeam.jpeg",
-          "Folder": "/gallery/SubGallery",
-          "OriginalFilePath": "gallery\\SubGallery\\EmpowerYourTeam.jpeg",
-          "ResizedFilePath": "gallery\\SubGallery\\resized-EmpowerYourTeam.jpeg",
-          "ThumbnailFilePath": "gallery\\Thumbnails\\thumbnail-SubGallery-EmpowerYourTeam.jpeg"
-        },
-        {
           "ImageWidth": 1475,
           "ImageHeight": 533,
           "Name": "FC62D19C-AEC8-4468-89C7-A2A5D7420333_1_105_c.jpeg",
@@ -79,7 +70,7 @@
           "ThumbnailFilePath": "gallery\\Thumbnails\\thumbnail-SubGallery-UseACoaster.jpeg"
         }
       ],
-      "GeneratedDateTime": "3/11/2020 7:45:49 PM"
+      "GeneratedDateTime": "3/11/2020 7:46:14 PM"
     },
     {
       "GalleryName": "ZoomBackgrounds",
@@ -109,7 +100,7 @@
           "ThumbnailFilePath": "gallery\\Thumbnails\\thumbnail-ZoomBackgrounds-ZoomBackground.jpeg"
         }
       ],
-      "GeneratedDateTime": "3/11/2020 7:45:49 PM"
+      "GeneratedDateTime": "3/11/2020 7:46:14 PM"
     }
   ],
   "Images": [
@@ -141,5 +132,5 @@
       "ThumbnailFilePath": "gallery\\Thumbnails\\thumbnail-gallery-EA9486AC-A69E-4F0F-98FD-BEF1D3C710E2_1_105_c.jpeg"
     }
   ],
-  "GeneratedDateTime": "3/11/2020 7:45:49 PM"
+  "GeneratedDateTime": "3/11/2020 7:46:14 PM"
 }
