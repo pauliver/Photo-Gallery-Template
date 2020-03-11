@@ -25,6 +25,8 @@ Gallery_Name: gallery
 </div>
 ----
 
+### [SubGallery]( ./SubGallery.html)
+
 
 [Gallery]( ./index.html)
   or 
