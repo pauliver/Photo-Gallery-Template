@@ -34,6 +34,15 @@
           "ThumbnailFilePath": "gallery\\Thumbnails\\thumbnail-SubGallery-EmpowerYourTeam.jpeg"
         },
         {
+          "ImageWidth": 1475,
+          "ImageHeight": 533,
+          "Name": "FC62D19C-AEC8-4468-89C7-A2A5D7420333_1_105_c.jpeg",
+          "Folder": "/gallery/SubGallery",
+          "OriginalFilePath": "gallery\\SubGallery\\FC62D19C-AEC8-4468-89C7-A2A5D7420333_1_105_c.jpeg",
+          "ResizedFilePath": "gallery\\SubGallery\\resized-FC62D19C-AEC8-4468-89C7-A2A5D7420333_1_105_c.jpeg",
+          "ThumbnailFilePath": "gallery\\Thumbnails\\thumbnail-SubGallery-FC62D19C-AEC8-4468-89C7-A2A5D7420333_1_105_c.jpeg"
+        },
+        {
           "ImageWidth": 3986,
           "ImageHeight": 1081,
           "Name": "LetsDoThis.jpg",
@@ -70,7 +79,7 @@
           "ThumbnailFilePath": "gallery\\Thumbnails\\thumbnail-SubGallery-UseACoaster.jpeg"
         }
       ],
-      "GeneratedDateTime": "3/11/2020 7:45:17 PM"
+      "GeneratedDateTime": "3/11/2020 7:45:49 PM"
     },
     {
       "GalleryName": "ZoomBackgrounds",
@@ -100,7 +109,7 @@
           "ThumbnailFilePath": "gallery\\Thumbnails\\thumbnail-ZoomBackgrounds-ZoomBackground.jpeg"
         }
       ],
-      "GeneratedDateTime": "3/11/2020 7:45:17 PM"
+      "GeneratedDateTime": "3/11/2020 7:45:49 PM"
     }
   ],
   "Images": [
@@ -132,5 +141,5 @@
       "ThumbnailFilePath": "gallery\\Thumbnails\\thumbnail-gallery-EA9486AC-A69E-4F0F-98FD-BEF1D3C710E2_1_105_c.jpeg"
     }
   ],
-  "GeneratedDateTime": "3/11/2020 7:45:17 PM"
+  "GeneratedDateTime": "3/11/2020 7:45:49 PM"
 }
