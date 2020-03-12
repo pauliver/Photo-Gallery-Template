@@ -41,6 +41,6 @@ The Sample website consists of some files and a few folders
 
 # For your future ReadMe.md file
 
-- [ ] checkbox toggle to make building easy
+- [X] checkbox toggle to make building easy
 
 {% endif %}
