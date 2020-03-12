@@ -7,6 +7,6 @@ Gallery_Page: true
 Gallery_Name: ALL
 ---
 
-Welcome to {{ site.github.project_title }} ! 
+Welcome to {{site.URL }} ! 
 
 Add some words here
