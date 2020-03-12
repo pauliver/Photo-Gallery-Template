@@ -70,7 +70,7 @@
                 rows = [],
                 totalWidth = 0,
                 appendBlocks = this.options.appendBlocks();
-            var w = this.$el.width();
+            var w = this.$el.width() - 15; //@@ Pauliver, account for scroll bars
             var border = parseInt(this.options.margin, 10);
             var d = this.$el,
                 h = parseInt(this.options.rowHeight, 10);
