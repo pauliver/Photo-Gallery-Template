@@ -42,4 +42,4 @@ SetupGallery(".image-container-gallery ImgContainer");
 
 {% include footer.md %}
 
-<!-- created on 03/12/2020 12:28 AM -->
+<!-- created on 03/12/2020 12:55 AM -->
