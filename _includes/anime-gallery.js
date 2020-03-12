@@ -3,7 +3,7 @@
 
 {% include anime.min.js %} //https://github.com/juliangarnier/anime
 
-var domain_name = "https://{{ site.url }}/";
+var domain_name = "{{ site.url }}/";
  
 //the dom element we attach things to
 var container; 
