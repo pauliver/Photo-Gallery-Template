@@ -6,7 +6,7 @@
 var GalleryObject = {% include gallery.json %};
 var Iterator = GalleryObject;
 var target_string_gallery = "none";
-var domain_name = "https://{{ site.github.project_title }}/";
+var domain_name = "https://{{ site.url }}/";
 
 function ForEachImageOnce(item,index)
 {
