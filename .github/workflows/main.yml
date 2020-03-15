@@ -99,28 +99,29 @@ jobs:
         run: dotnet  ${{github.workspace}}\MergeTool\bin\Release\netcoreapp3.1\Merge-Pull-Request.dll ${{env.Owner}} ${{env.Repo}} ${{env.AutoMergeLabel}}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-  Cleanup_if_we_had_falures:
-    name: close the PR, if all else failed
-    needs: [process_images, build_jekyll_site, merge_pr_if_sucess]
-    runs-on: [windows-latest]
-    strategy:
-      matrix:
-        dotnet: [ '3.1.100' ]
-    steps:
-      - name: Setup dotnet
-        uses: actions/setup-dotnet@v1
-        with:
-          dotnet-version: ${{ matrix.dotnet }}
-      - name: Checkout Merge Tool
-        uses: actions/checkout@v2
-        with:
-          repository: pauliver/Merge-Pull-Request-Csharp
-          path: MergeTool
-
-      - name: Build merge tool Tools
-        run: dotnet build MergeTool/ --configuration Release
-      
+          
+          
+#  Cleanup_if_we_had_falures:
+#    name: close the PR, if all else failed
+#    needs: [process_images, build_jekyll_site, merge_pr_if_sucess]
+#    runs-on: [windows-latest]
+#    strategy:
+#      matrix:
+#        dotnet: [ '3.1.100' ]
+#    steps:
+#      - name: Setup dotnet
+#        uses: actions/setup-dotnet@v1
+#        with:
+#          dotnet-version: ${{ matrix.dotnet }}
+#      - name: Checkout Merge Tool
+#        uses: actions/checkout@v2
+#        with:
+#          repository: pauliver/Merge-Pull-Request-Csharp
+#          path: MergeTool
+#
+#      - name: Build merge tool Tools
+#        run: dotnet build MergeTool/ --configuration Release
+#      
       # Write new code, check if a PR with the correct title / label is open, if so, close it, but still FAIL
       #- name: Run the MergeTool Tools
       #  run: dotnet  ${{github.workspace}}\MergeTool\bin\Release\netcoreapp3.1\Merge-Pull-Request.dll ${{env.Owner}} ${{env.Repo}} ${{env.AutoMergeLabel}}
