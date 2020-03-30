@@ -6,7 +6,7 @@ page_variable: ReadMe
 
 **Don't Forget to replace this page, it will be published**
 
-_If you want something a little more finished and polished, consider using [https://github.com/pauliver/gallerytest.pauliver.com](https://github.com/pauliver/gallerytest.pauliver.com)_
+_If you want something a little more finished and polished, consider using [https://github.com/photography/gallerytest.pauliver.com](https://github.com/pauliver/gallerytest.pauliver.com)_
 
 # Photo Gallery Template
 
