@@ -6,6 +6,8 @@ page_variable: ReadMe
 
 **Don't Forget to replace this page, it will be published**
 
+_If you want something a little more finished and polished, consider using [https://github.com/pauliver/gallerytest.pauliver.com](https://github.com/pauliver/gallerytest.pauliver.com)_
+
 # Photo Gallery Template
 
 Clone this template repo, make sure the repo name is your domain name in the form of Domain.Extention *(we use the repo name as a variable in scripts so the script is expecting to find domain.extension) I should have called the repo example.pauliver.com*. If you go with something else, you can always submit pull requests or fork [this action](https://github.com/pauliver/CSharp-Image-Action). 
