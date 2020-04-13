@@ -7,3 +7,4 @@ plugins:
   - jekyll-seo-tag
 baseurl: "/"
 repository: "pauliver/Photo-Gallery-Template"
+URL: https://example.pauliver.com
