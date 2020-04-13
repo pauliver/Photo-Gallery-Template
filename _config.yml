@@ -5,6 +5,8 @@ exclude: [/coldstorage/OriginalImages/, /coldstorage/OriginalImages/*]
 show_drafts: false
 plugins:
   - jekyll-seo-tag
+
 baseurl: "/"
+URL: example.pauliver.com
+
 repository: "pauliver/Photo-Gallery-Template"
-URL: https://example.pauliver.com
